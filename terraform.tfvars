@@ -1,1 +1,1 @@
-ami_id = "ami-0c55b159cbfafe1f0" # Example Amazon Linux 2 AMI
+ami_id = "ami-0ff8a91507f77f867" # Example Amazon Linux 2 AMI

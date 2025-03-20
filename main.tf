@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     aws = {
-      source = "hashicorp/aws"
+      source  = "hashicorp/aws"
       version = "5.92.0"
     }
   }
@@ -19,9 +19,9 @@ module "vpc" {
 }
 
 module "ec2" {
-  source         = "./modules/ec2"
-  ami_id         = var.ami_id
-  instance_type  = "t2.micro"
-  subnet_id      = module.vpc.subnet_id
-  instance_name  = "my-web-server"
+  source        = "./modules/ec2"
+  ami_id        = var.ami_id
+  instance_type = "t2.micro"
+  subnet_id     = module.vpc.subnet_id
+  instance_name = "my-web-server"
 }

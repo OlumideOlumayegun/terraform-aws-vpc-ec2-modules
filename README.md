@@ -86,7 +86,7 @@ When prompted, type yes and press Enter.
 
 Edit terraform.tfvars:
 ```bash
-ami_id = "ami-0c55b159cbfafe1f0"
+ami_id = "ami-0ff8a91507f77f867"
 ``` 
 ## 📖 Prerequisites
 
